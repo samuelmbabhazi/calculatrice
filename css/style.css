@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+main {
+  padding-top: 40px;
+  margin-top: 5%;
+  background-color: white;
+  box-shadow: 0px 30px 45px 10px rgba(140, 140, 140, 0.999);
+  border-radius: 15px;
+}
+section {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.row-button1 {
+  padding-top: 20px;
+  display: flex;
+  gap: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.row-button2 {
+  padding-top: 20px;
+  display: flex;
+  gap: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.row-button3 {
+  padding-top: 20px;
+  display: flex;
+  gap: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.row-button4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+button {
+  font-size: 130%;
+  font-weight: bold;
+  font-family: serif;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  /* border: 2px solid cornflowerblue; */
+  background-color: rgba(128, 128, 128, 0.445);
+  box-shadow: 2px 2px 2px rgb(92, 8, 8);
+}
+button:hover {
+  background-color: rgb(14, 55, 179);
+}
+input {
+  border-radius: 10px;
+  background-color: rgba(201, 197, 253, 0.514);
+  width: 90%;
+  height: 80px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  text-align: right;
+  font-size: 20px;
+  border: none;
+}
+#egal {
+  background-color: rgb(11, 61, 11);
+}
+#egal:hover {
+  background-color: green;
+}
+#clean {
+  background-color: brown;
+}
+#clean:hover {
+  background-color: red;
+}
+#delete {
+  background-color: rgb(180, 89, 89);
+}
+#delete:hover {
+  background-color: rgb(224, 91, 91);
+}
+@media (max-width: 768px) {
+  body {
+    padding-top: 10%;
+    height: 90vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  main {
+    
+  display: flex;
+flex-direction: column;
+justify-content: space-around;
+    background-color: white;
+    box-shadow: 0px 30px 45px 10px rgba(140, 140, 140, 0.999);
+    border-radius: 15px;
+    height: 100vh;
+  }
+  input {
+    border-radius: 10px;
+    background-color: rgba(201, 197, 253, 0.514);
+    width: 85%;
+    height: 150px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-weight: bold;
+    text-align: right;
+    font-size: 40px;
+    border: none;
+  }
+}
