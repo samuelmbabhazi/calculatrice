@@ -6,13 +6,21 @@ body {
   flex-direction: column;
   display: flex;
   align-items: center;
-  background-color: white;
+  background-color: rgba(53, 40, 40, 0.995);
+  
 }
 main {
   padding-top: 40px;
   margin-top: 5%;
-  background-color: white;
-  box-shadow: 0px 30px 45px 10px rgba(140, 140, 140, 0.999);
+  background: linear-gradient(
+    135deg,
+    rgb(255, 255, 255, 0.1),
+    rgb(255, 255, 255, 0)
+  );
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 0 rgb(0, 0, 0, 0.37);
+  border: 1px solid rgb(255, 255, 255, 0.18);
   border-radius: 15px;
 }
 section {
@@ -102,18 +110,13 @@ input {
     flex-direction: column;
     display: flex;
     align-items: center;
-    background-color: white;
     padding-left: 3%;
     padding-right: 3%;
   }
   main {
-    
-  display: flex;
-flex-direction: column;
-justify-content: space-around;
-    background-color: white;
-    box-shadow: 0px 30px 45px 10px rgba(140, 140, 140, 0.999);
-    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     height: 100vh;
   }
   input {
